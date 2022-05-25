@@ -33,7 +33,7 @@ We make the following contributions:
 
 
 ## What is in this Repo?
-We provide a PyTorch implementation of our ARC algorithm from our [paper](TODO). The code provided can be used to evaluate the robustness of randomized ensembles using both adaptive PGD (APGD) which uses the expected loss function, and our proposed ARC algorithm. Specifically, `eval_robustness_bat_sweep.py` can be used to evaluate the robustness of [BAT](https://arxiv.org/abs/2002.11565) RECs while sweeping parameters such as sampling probability $\alpha$, number of attack steps $K$, attack strength $\epsilon$, etc. We also provide `eval_robustness_dverge_sweep.py` for evaluating the robustness of RECs consutrcuted from [DVERGE](https://github.com/zjysteven/DVERGE) models. You can download some of our pre-trained [BAT](https://arxiv.org/abs/2002.11565) models from [here](TODO).
+We provide a PyTorch implementation of our ARC algorithm from our [paper](TODO). The code provided can be used to evaluate the robustness of randomized ensembles using both adaptive PGD (APGD) which uses the expected loss function, and our proposed ARC algorithm. Specifically, `eval_robustness_bat_sweep.py` can be used to evaluate the robustness of [BAT](https://arxiv.org/abs/2002.11565) RECs while sweeping parameters such as sampling probability $\alpha$, number of attack steps $K$, attack strength $\epsilon$, etc. We also provide `eval_robustness_dverge_sweep.py` for evaluating the robustness of RECs consutrcuted from [DVERGE](https://github.com/zjysteven/DVERGE) models. You can download some of our pre-trained [BAT](https://arxiv.org/abs/2002.11565) models from [here](https://uofi.box.com/s/003otda7217y6gnr9nqwhh07cml2bu4r).
 
 
 ## Examples
@@ -46,7 +46,7 @@ torchvision 0.8.0
 ```
 1.  clone the repo: `git clone https://github.com/hsndbk4/ARC.git`
 2.  make sure the appropriate dataset folders are setup properly (check `get_dataloaders` in `datasets.py`)
-3.  download two pre-trained BAT ResNet-20s on CIFAR-10 from [here](TODO)
+3.  download two pre-trained BAT ResNet-20s on CIFAR-10 from [here](https://uofi.box.com/s/003otda7217y6gnr9nqwhh07cml2bu4r)
 4.  place both models in an appropriate folder in the root directory, e.g. `outdir_cifar10/resnet20_bat_linf`
 
 We are now set to run some scripts. To re-produce the ResNet-20 $\ell_\infty$ numbers in Table 1, you can run the following commands:
