@@ -101,7 +101,6 @@ If you find our work helpful, please consider citing it.
   year={2022},
   organization={PMLR}
 }
-
 ```
 
 ## Acknowledgements
